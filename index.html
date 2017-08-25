@@ -41,7 +41,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color:#F5A623"><i class="fa fa-globe fa-lg pr-2 live-status" aria-hidden="true"></i>Live Now: 2017 SEA Games Opening Ceremony</a>
+            <a class="nav-link" href="#" style="color:#F5A623; font-size: 90%"><i class="fa fa-globe fa-lg pr-2 live-status" aria-hidden="true"></i>Live Now: 2017 SEA Games Opening Ceremony</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -54,30 +54,39 @@
 
     <!-- Begin page content -->
     <div class="container">
-        <div class="row body d-flex">
+        <div class="row body d-flex" id="player">
             <!-- Begin video player content -->
-            <div class="col-lg-8 pt-4 mb-4 pl-0 video-player">
+            <div class="col-lg-8 pt-4 mb-4 pl-lg-0 video-player">
                <h6 class="section-title">SECTION</h6>
                <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kLE6-6pFNVY" frameborder="0" allowfullscreen></iframe>
                </div>
-               <h1 class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+               <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
                <h6 class="mb-3">Posted on 22 May 2017 4:30:32 PM</h6>
                <a class="btn btn-primary" href="#" role="button">Share</a>
                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam porro iste accusantium adipisci possimus eius debitis consectetur facere nihil at esse error quis eos quae voluptatem, fuga dolorum voluptates ipsa!</p>
                <h6 class="mt-4">Keywords</h6>
                <div class="d-inline">
-                   <button type="button" class="btn btn-outline-primary">porro</button>
-                   <button type="button" class="btn btn-outline-primary">voluptates</button>
-                   <button type="button" class="btn btn-outline-primary">consectetur</button>
-                   <button type="button" class="btn btn-outline-primary">debitis</button>
-                   <button type="button" class="btn btn-outline-primary">ipsum</button>
-                   <button type="button" class="btn btn-outline-primary">adipisicing</button>
+                   <button type="button" class="btn btn-outline-primary mb-2">porro</button>
+                   <button type="button" class="btn btn-outline-primary mb-2">voluptates</button>
+                   <button type="button" class="btn btn-outline-primary mb-2">consectetur</button>
+                   <button type="button" class="btn btn-outline-primary mb-2">debitis</button>
+                   <button type="button" class="btn btn-outline-primary mb-2">ipsum</button>
+                   <button type="button" class="btn btn-outline-primary mb-2">adipisicing</button>
+               </div>
+               <div class="related">
+               <h6 class="mt-4">Related</h6>
+               <ul class="list-unstyled">
+                   <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
+                   <li><a href="#">Unde voluptatum voluptas fugit eveniet ab quidem repudiandae</a></li>
+                   <li><a href="#">Quo architecto recusandae distinctio dolor</a></li>
+                   <li><a href="#">perferendis dignissimos quas voluptates! Ipsum in.</a></li>
+               </ul>
                </div>
             </div>
             
             <!-- Begin video player content -->
-            <div class="col-lg-4 pt-4 video-playlist">
+            <div class="col-lg-4 pt-4 video-playlist" id="playlist">
                 <h6>LIVE</h6>
                 <div class="media live">
                   <img class="d-flex mr-3" src="css/img/video_cell_placeholder.png" alt="Generic placeholder image">
@@ -177,6 +186,7 @@
     
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie-10-viewport-bug-workaround.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
 

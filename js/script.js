@@ -1,0 +1,1 @@
+$('#playlist').height( $('#player').height() )
