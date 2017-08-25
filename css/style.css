@@ -1,15 +1,7 @@
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
   /* Margin bottom by footer height */
   background-color: #212123;
   color: #fff;
-  height: 100%;
 }
 
 p {
@@ -20,9 +12,6 @@ p {
     background-color: #0E0E0E;
 }
 
-.body {
-    margin-top: 0px;
-}
 
 /* TYPGRAPHY */
 
@@ -31,13 +20,18 @@ p {
     font-weight: 700;
 }
 
+/* CONTENT */
+
 .video-player {
     margin-bottom: 0;
+    overflow: hidden;
+    min-height: 50%;
 }
 
 .video-playlist {
     background-color: #151515;
-    overflow-y: auto;
+    overflow: auto;
+    height: 100%;
 }
 
 .live {
@@ -47,6 +41,8 @@ p {
 .border-bottom {
     border-bottom: 1px solid #3F3F3F;
 }
+
+/* FOOTER */
 
 .footer {
   bottom: 0;
