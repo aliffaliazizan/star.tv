@@ -12,6 +12,10 @@ body {
   color: #fff;
 }
 
+p {
+    font-weight: 200;
+}
+
 .bg-navbar {
     background-color: #0E0E0E;
 }
