@@ -25,13 +25,11 @@ p {
 .video-player {
     margin-bottom: 0;
     overflow: hidden;
-    min-height: 50%;
 }
 
 .video-playlist {
     background-color: #151515;
     overflow: auto;
-    height: 100%;
 }
 
 .live {
