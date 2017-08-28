@@ -40,7 +40,7 @@
               <a class="dropdown-item" href="#">Separated link</a>
             </div>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" id="live-status">
             <a class="nav-link" href="#" style="color:#F5A623; font-size: 90%"><i class="fa fa-globe fa-lg pr-2 live-status" aria-hidden="true"></i>Live Now: 2017 SEA Games Opening Ceremony</a>
           </li>
         </ul>
@@ -57,22 +57,23 @@
         <div class="row">
             <!-- Begin video player content -->
             <div class="col-lg-8 pt-4 pl-lg-0 video-player" id="player">
-               <h6 class="section-title">SECTION</h6>
+               <h6 class="section-title" id="section-title">SECTION</h6>
                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kLE6-6pFNVY" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4THhO3d-SY0" frameborder="0" allowfullscreen></iframe>
                </div>
-               <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-               <h6 class="mb-3">Posted on 22 May 2017 4:30:32 PM</h6>
-               <a class="btn btn-primary" href="#" role="button">Share</a>
-               <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam porro iste accusantium adipisci possimus eius debitis consectetur facere nihil at esse error quis eos quae voluptatem, fuga dolorum voluptates ipsa!</p>
-               <h6 class="mt-4">Keywords</h6>
+               <h1 class="upload-title" id="upload-title">Anak-Anak Malaysia, Anak-Anak Gembira!</h1>
+               <h6 class="upload-date mb-3" id="upload-date">Posted on 22 May 2017 4:30:32 PM</h6>
+               <a class="btn btn-primary" href="#" role="button"><i class="fa fa-share-square-o pr-2" aria-hidden="true"></i>Share</a>
+               <p class="mt-4" id="upload-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam porro iste accusantium adipisci possimus eius debitis consectetur facere nihil at esse error quis eos quae voluptatem, fuga dolorum voluptates ipsa!</p>
+               <h6 class="keywords mt-4">Keywords</h6>
                <div class="d-inline">
-                   <button type="button" class="btn btn-outline-primary mb-2">porro</button>
-                   <button type="button" class="btn btn-outline-primary mb-2">voluptates</button>
-                   <button type="button" class="btn btn-outline-primary mb-2">consectetur</button>
-                   <button type="button" class="btn btn-outline-primary mb-2">debitis</button>
-                   <button type="button" class="btn btn-outline-primary mb-2">ipsum</button>
-                   <button type="button" class="btn btn-outline-primary mb-2">adipisicing</button>
+                  <a href="#" class="btn btn-outline-primary mb-2">Anak-Anak Malaysia</a>
+                  <a href="#" class="btn btn-outline-primary mb-2">Merdeka</a>
+                  <a href="#" class="btn btn-outline-primary mb-2">Star Media Group</a>
+                  <a href="#" class="btn btn-outline-primary mb-2">Run</a>
+                  <a href="#" class="btn btn-outline-primary mb-2">SEA Games</a>
+                  <a href="#" class="btn btn-outline-primary mb-2">gembira</a>
+                   
                </div>
                <div class="related">
                <h6 class="mt-4">Related</h6>
@@ -87,106 +88,105 @@
             
             <!-- Begin video playlist content -->
             <div class="col-lg-4 pt-4 video-playlist float-right" id="playlist">
-                <h6>LIVE</h6>
+                <h6 class="live-section-title">Live now!</h6>
                 <div class="media live">
                   <img class="d-flex mr-3" src="css/img/video_cell_placeholder.png" alt="Generic placeholder image">
                   <div class="media-body">
-                    <h6 class="mt-0 mb-0">Opening Ceremony (National Stadium) | 28th SEA Games</h6>
-                    <p>4,142 viewers</p>
+                    <h6 class="live-title mt-0 mb-0" id="live-title">Opening Ceremony (National Stadium) | 28th SEA Games</h6>
+                    <p class="live-viewer-count" id="live-viewer-count"><i class="fa fa-eye pr-2" aria-hidden="true"></i>4,142 viewers</p>
                   </div>
                 </div>
                 <div class="pt-4">
-                    <h6>UP NEXT</h6>
+                    <h6 class="playlist-up-next">Up Next</h6>
                         <ul class="list-unstyled">
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_01.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">Battered Texas coast braces for more Harvey</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_02.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">How Conor McGregor and Floyd Mayweather match up</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_03.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">Wrongfully convicted couple awarded $3.4 million after more than 21 years in prison</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_04.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">‘All Pride stations are lucky’: Store owner talks about Powerball jackpot winner</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="ads pt-4 pb-3">
-                            <a href="#"><img src="css/img/banner_300x250.png" alt="Generic placeholder image">Advertisement</a>
+                          <li class="ads pt-4 pb-1">
+                            <a href="#"><img src="css/img/banner_300x250.png" alt="Generic placeholder image"></a>
+                            <p class="pt-2">Advertisement</p>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_02.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">Amazon acquires Whole Foods. Here's why that's such a big deal.</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_01.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">Florida set to execute with drug not previously used in lethal injections</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_03.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">One Powerball winning ticket sold in Massachusetts</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_04.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">His girlfriend was murdered on live TV. Now he’s running in one of Virginia’s most competitive</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_02.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">The man behind the ‘Blacks for Trump’ signs has an interesting past</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_01.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">Trump’s Phoenix rally draws fervent support and protest</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_03.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">Phoenix on edge ahead of Trump rally</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
+                          <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_04.png" alt="Generic placeholder image">
                             <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
+                              <h6 class="video-title mt-0 mb-1">Kelly kisses baby at Marine meet-and-greet</h6>
+                              <p class="video-upload-date">22 March 2017</p>
                             </div>
                           </li>
-                          
-
                         </ul>
                 </div>
                 
@@ -197,7 +197,7 @@
     <footer class="footer">
       <div class="container">
       <div class="row">
-       <img class="footer-logo" src="css/img/startv_logo.png" width="50" height="50" alt="">
+        <img class="footer-logo" src="css/img/startv_logo.png" width="50" height="50" alt="">
         <span class="text-muted">Copyright © 1995-2017 Star Media Group Berhad (Co No 10894-D</span>
         </div>
       </div>
@@ -207,13 +207,14 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery.slimscroll.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie-10-viewport-bug-workaround.js"></script>
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/ie-10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
 
