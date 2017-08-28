@@ -20,7 +20,7 @@
 
   <body>
 
-     <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-navbar">
       <a class="navbar-brand pt-0 pb-0" href="#">
         <img src="css/img/startv_logo.png" width="50" height="50" alt="">
       </a>
@@ -53,10 +53,10 @@
     
 
     <!-- Begin page content -->
-    <div class="container">
-        <div class="row" id="player">
+    <div class="container main">
+        <div class="row">
             <!-- Begin video player content -->
-            <div class="col-lg-8 pt-4 mb-4 pl-lg-0 video-player">
+            <div class="col-lg-8 pt-4 pl-lg-0 video-player" id="player">
                <h6 class="section-title">SECTION</h6>
                <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kLE6-6pFNVY" frameborder="0" allowfullscreen></iframe>
@@ -86,7 +86,7 @@
             </div>
             
             <!-- Begin video playlist content -->
-            <div class="col-lg-4 pt-4 video-playlist" id="playlist">
+            <div class="col-lg-4 pt-4 video-playlist float-right" id="playlist">
                 <h6>LIVE</h6>
                 <div class="media live">
                   <img class="d-flex mr-3" src="css/img/video_cell_placeholder.png" alt="Generic placeholder image">
@@ -126,12 +126,8 @@
                               <p>22 March 2017</p>
                             </div>
                           </li>
-                          <li class="media border-bottom pt-3">
-                            <img class="d-flex mr-3" src="css/img/video_cell_placeholder_05.png" alt="Generic placeholder image">
-                            <div class="media-body">
-                              <h6 class="mt-0 mb-1">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus</h6>
-                              <p>22 March 2017</p>
-                            </div>
+                          <li class="ads pt-4 pb-3">
+                            <a href="#"><img src="css/img/banner_300x250.png" alt="Generic placeholder image">Advertisement</a>
                           </li>
                           <li class="media border-bottom pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_02.png" alt="Generic placeholder image">

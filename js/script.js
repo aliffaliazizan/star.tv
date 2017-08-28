@@ -1,1 +1,1 @@
-$('#playlist').height( $('#player').height())
+$('.video-playlist').height( $('#player').height())
