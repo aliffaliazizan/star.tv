@@ -40,13 +40,19 @@
               <a class="dropdown-item" href="#">Separated link</a>
             </div>
           </li>
-          <li class="nav-item" id="live-status">
+          <li class="nav-item ml-3" id="live-status">
             <a class="nav-link" href="#" style="color:#F5A623; font-size: 90%"><i class="fa fa-globe fa-lg pr-2 live-status" aria-hidden="true"></i>Live Now: 2017 SEA Games Opening Ceremony</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-secondary my-2 my-sm-0 mr-lg-3" type="submit">Search</button>
+          <a class="social-media-btn-facebook" href="#">
+              <span class="facebook fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+          </a>
         </form>
       </div>
     </nav> 
@@ -97,8 +103,16 @@
                   </div>
                 </div>
                 <div class="pt-4">
-                    <h6 class="playlist-up-next">Up Next</h6>
-                        <ul class="list-unstyled">
+                   <h6 class="d-inline-flex justify-content-start">Up Next</h6>
+                   <div class="d-inline-flex float-right pt-1">
+                       <h6 class="playlist-autoplay pr-2">AUTOPLAY</h6>
+                       <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider round"></span>
+                        </label>
+                   </div>  
+                   </div>
+                        <ul class="list-unstyled pt-2">
                           <li class="media pt-3">
                             <img class="d-flex mr-3" src="css/img/video_cell_placeholder_01.png" alt="Generic placeholder image">
                             <div class="media-body">
@@ -188,8 +202,6 @@
                             </div>
                           </li>
                         </ul>
-                </div>
-                
             </div>
         </div>
     </div>
@@ -197,8 +209,21 @@
     <footer class="footer">
       <div class="container">
       <div class="row">
-        <img class="footer-logo" src="css/img/startv_logo.png" width="50" height="50" alt="">
-        <span class="text-muted">Copyright © 1995-2017 Star Media Group Berhad (Co No 10894-D</span>
+       <div class="col-lg-1">
+           <img class="footer-logo" src="css/img/startv_logo.png" width="50" height="50" alt="">
+       </div>
+       <div class="col-lg-8 footer-text">
+          <ul class="footer-link list-unstyled">
+              <li class="d-inline-block pr-3 mt-2"><a class="link-item" href="#">About</a></li>
+              <li class="d-inline-block pr-3 mt-2"><a class="link-item" href="">Contact</a></li>
+              <li class="d-inline-block pr-3 mt-2"><a class="link-item" href="#">Terms</a></li>
+              <li class="d-inline-block pr-3 mt-2"><a class="link-item" href="">Privacy Policy</a></li>
+              <li class="d-inline-block pr-3 mt-2"><a class="link-item" href="">Mobile</a></li>
+          </ul>
+           <span class="text-muted copyright-text">Copyright © 1995-2017 Star Media Group Berhad (Co No 10894-D</span>
+       </div>
+        
+        
         </div>
       </div>
     </footer>
