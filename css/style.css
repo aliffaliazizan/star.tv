@@ -217,6 +217,12 @@ input:checked + .slider:before {
 }
 
 
-
+@media (max-width: 575px) {
+    .hidden-mobile {
+        display: none;
+        
+    }
+    
+}
 
 
